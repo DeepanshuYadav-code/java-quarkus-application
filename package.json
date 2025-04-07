@@ -1,0 +1,14 @@
+{
+  "name": "java-quarkus-application-template",
+  "version": "1.0.0",
+  "description": "An AsyncAPI generator template for creating Java + Quarkus applications.",
+  "main": "hooks/index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@asyncapi/generator": "^2.0.0"
+  }
+}

@@ -1,0 +1,15 @@
+// This is the main application class template for the generated Java + Quarkus project.
+// It uses Handlebars syntax to inject values from the AsyncAPI document.
+
+package {{asyncapi.info.title | camelCase}};
+
+import io.quarkus.runtime.Quarkus;
+import io.quarkus.runtime.annotations.QuarkusMain;
+
+@QuarkusMain
+public class App {
+    public static void main(String... args) {
+        System.out.println("Welcome to {{asyncapi.info.title}}!");
+        Quarkus.run(args);
+    }
+}
